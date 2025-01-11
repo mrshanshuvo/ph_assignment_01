@@ -479,23 +479,6 @@ nav {
   text-align: left;
 }
 
-.footer {
-  color: rgb(14, 14, 14);
-  font-family: Fira Sans;
-  font-size: 32px;
-  font-weight: 700;
-  line-height: 38px;
-  letter-spacing: 0%;
-  text-align: center;
-}
-
-.footer-sns {
-  display: flex;
-  margin-top: 64px;
-  justify-content: center;
-  gap: 23px;
-}
-
 #subs {
   padding: 80px 100px 80px 100px;
   border-radius: 24px;
@@ -647,6 +630,23 @@ nav {
   box-sizing: border-box;
   border: 1px solid rgba(14, 14, 14, 0.15);
   border-radius: 16px;
-
   background: rgb(198, 228, 214);
+}
+/* footer styling */
+
+.footer {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.footer-sns {
+  display: flex;
+  margin-top: 64px;
+  justify-content: center;
+  gap: 23px;
 }
