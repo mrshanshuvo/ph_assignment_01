@@ -495,3 +495,66 @@ nav {
   justify-content: center;
   gap: 23px;
 }
+
+#subs {
+  padding: 80px 100px 80px 100px;
+  border-radius: 24px;
+
+  background: rgb(198, 228, 214);
+  margin-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub-heading {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.sub-description {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.sub-textbox input {
+  border-radius: 8px 0px 0px 8px;
+  padding: 21px 40px;
+  border: none;
+  background: rgb(255, 255, 255);
+  width: 600px;
+}
+.sub-textbox button {
+  border-radius: 0px 8px 8px 0px;
+  border: none;
+  background: rgb(0, 106, 80);
+  padding: 17px 34px 17px 34px;
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.sub-comment {
+  margin-top: 25px;
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: center;
+}
