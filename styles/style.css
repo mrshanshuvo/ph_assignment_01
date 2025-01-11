@@ -1,0 +1,497 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Libre+Baskerville&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Protest+Riot&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 20px 160px;
+  background: rgb(245, 245, 245);
+  height: 5000px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.nav-title {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.sign-in-btn {
+  box-sizing: border-box;
+  border: 1px solid rgb(0, 106, 80);
+  border-radius: 8px;
+  padding: 15px 30px 15px 30px;
+}
+
+.sign-in-btn p {
+  color: rgb(0, 106, 80);
+  font-family: Fira Sans;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+/* vision styles */
+
+#vision-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 24px;
+  background: rgb(198, 228, 214);
+  gap: 64;
+  padding: 80px 100px 80px 100px;
+  margin-bottom: 80px;
+}
+
+#vision-container .vision-title {
+  color: rgba(14, 14, 14, 0.5);
+  font-family: Fira Sans;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 16px;
+}
+#vision-container .vision-description {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 67px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 24px;
+}
+#vision-container .vision-btn {
+  padding: 17px 34px 17px 34px;
+  border-radius: 8px;
+  border: none;
+  background: rgb(0, 106, 80);
+}
+#vision-container .vision-btn p {
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+#vision-container .right-vision {
+  position: static;
+  width: 474.03px;
+  height: 400px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  /* margin: 0px 64px; */
+}
+
+#pillars h2 {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 32px;
+}
+
+#pillars .pillar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
+#pillars .pillar-div {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  background-color: white;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+
+  background: rgb(255, 255, 255);
+}
+#pillars .pillar-div .pillar-image {
+  width: 62px;
+  height: 62px;
+  margin-bottom: 25px;
+}
+#pillars .pillar-div .pillar-title {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 12px;
+}
+#pillars .pillar-div .pillar-description {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+/* style for future vision */
+
+#future {
+  margin-top: 80px;
+}
+
+.future-vision-container .future-title {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.future-vision-container .future-description {
+  margin-top: 24px;
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.future-main {
+  margin-top: 32px;
+  display: flex;
+  gap: 24px;
+}
+
+.future-visions {
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+  box-sizing: border-box;
+  border-radius: 16px;
+}
+
+.fv1 {
+  background: rgba(84, 144, 245, 0.2);
+}
+.fv2 {
+  background: rgba(84, 144, 245, 0.2);
+}
+.fv3 {
+  background: rgb(247, 235, 207);
+}
+
+.vision-title {
+  margin-top: 25px;
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.vision-description {
+  margin-top: 12px;
+  margin-bottom: 40px;
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.vision-btn-div {
+  margin-top: auto;
+}
+
+.vision-btn-div button {
+  border: none;
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding: 11px 20px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.vision-btn-div button:hover {
+  opacity: 0.9;
+  transform: scale(1.05);
+}
+
+.vtd1 button {
+  background: rgb(84, 144, 245);
+}
+
+.vtd2 button {
+  background: rgb(9, 161, 92);
+}
+
+.vtd3 button {
+  background: rgb(255, 194, 57);
+}
+
+@media (max-width: 768px) {
+  .future-main {
+    flex-direction: column;
+    gap: 16px;
+  }
+}
+
+.future-footer {
+  background-image: url("/assets/quote-bg.png");
+  background-repeat: no-repeat;
+  background-position: 25px 25px;
+  background-color: white;
+  margin-top: 32px;
+  padding: 48px 24px 48px 24px;
+  margin-bottom: 80px;
+}
+
+.ff-description {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 12px;
+  text-align: justify;
+}
+
+.ff-title {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 4px;
+}
+
+.ff-t-description {
+  color: rgba(14, 14, 14, 0.6);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+/* opinion matters */
+#opinion-matters p {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+.opinions-container {
+  padding: 32px;
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+}
+
+.table-header {
+  display: flex;
+  justify-content: space-between;
+  background: rgb(198, 228, 214);
+  padding: 24px;
+}
+
+.table-header > div {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.ques-op {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0px;
+}
+
+.question {
+  padding: 24px 82px;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: rgba(255, 255, 255, 0.1);
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 40px;
+}
+
+.answer {
+  padding: 25px 24px;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.answer select {
+  padding: 10px 14px 10px 14px;
+  box-sizing: border-box;
+  border: 1px solid rgb(14, 14, 14);
+  border-radius: 4px;
+
+  background: rgb(198, 228, 214);
+}
+
+/* recent news style */
+
+#recent-news {
+  margin-top: 80px;
+}
+
+#recent-news > h1 {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+#recent-news > p {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 32px;
+  text-align: justify;
+}
+
+.main-news-container {
+  display: flex;
+  gap: 32px;
+  margin-bottom: 80px;
+}
+
+.news-image img {
+  width: 408px;
+  height: 306px;
+  border-radius: 24px;
+}
+
+.news-title {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 12px;
+}
+
+.news-logo {
+  width: 134px;
+  height: 40px;
+  margin-bottom: 12px;
+}
+
+.news-time {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 12px;
+}
+
+.news-time span {
+  margin-right: 10px;
+}
+
+.news-description {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 32px;
+}
+.new-button button {
+  padding: 13px 26px 13px 26px;
+  border-radius: 8px;
+  background: rgb(0, 106, 80);
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.footer {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.footer-sns {
+  display: flex;
+  margin-top: 64px;
+  justify-content: center;
+  gap: 23px;
+}
